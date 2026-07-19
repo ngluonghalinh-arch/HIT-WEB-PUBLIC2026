@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+</head>
+<body>
+    <header>
+        <h1>THÔNG TIN CÁ NHÂN</h1>
+        <nav>
+            <a href="#gioithieu">Giới thiệu</a> | 
+            <a href="#sothich">Sở thích</a> |
+            <a href="#kynang">Kỹ năng</a> |
+            <a href="#thoikhoabieu">Thời khóa biểu</a> |
+            <a href="#lienhe">Liên hệ</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="gioithieu">
+        <div>
+            <img alt="Ảnh đại diện" src="https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/733890462_1526842285739715_8896045152748355346_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHVSXNlj4Ss2Ty5LK6OMZPYvb2Ak3nyP3W9vYCTefI_dXPcvX3IimfIlvG0W2LKtgdPRnJeSOw1y1lNfIiUeIr3&_nc_ohc=ARa609rRwLUQ7kNvwEEwLQC&_nc_oc=Adr9nlHOO6FusUVkUF3fpH9QLL__VrL4zorbr1JosCA5fzncrVTRpflXzYit6I9aoQE&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=_u4oTqesWN_Pw34aqYs-lQ&_nc_ss=7b2a8&oh=00_AQAVbaLYHtSsyfviTJLNr7bASHlr2w6R5nY2BaC7Mwij3Q&oe=6A62D649" width="180">
+        </div>
+        <div>
+            <h2>Thông tin cá nhân</h2>
+            <p><strong>Họ tên:</strong> Nguyễn Lương Hà Linh</p>
+            <p><strong>Tuổi:</strong> 18</p>
+            <p><strong>Trường:</strong> Đại học Công nghiệp Hà Nội</p>
+            <p><strong>Ngành:</strong> Hệ thống thông tin</p>
+            <p><strong>Lớp:</strong> HTTT01</p>
+            <p><strong>Email:</strong> ngngluonghalinh@gmail.com</p>
+            <p><strong>SĐT:</strong> 0833219483</p>
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <article>
+            <h2>Giới thiệu bản thân</h2>
+            <p>Xin chào! Mình là Nguyễn Lương Hà Linh, hiện đang là sinh viên ngành Hệ thống thông tin.</p>
+            <p>Mình yêu thích lập trình web và mong muốn trở thành Front-end Developer trong tương lai.</p>
+        </article>
+    </section>
+    <hr>
+
+    <!-- SỞ THÍCH -->
+    <section id="sothich">
+        <div>
+            <h2>Sở thích</h2>
+            <ul>
+                <li>Lập trình</li>
+                <li>Chơi game</li>
+                <li>Nghe nhạc</li>
+                <li>Du lịch</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+
+    <section id="kynang">
+        <div>
+            <h2>Kỹ năng</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git &amp; GitHub</li>
+                <li>C++</li>
+            </ol>
+        </div>
+    </section>
+    <hr>
+
+    <section id="thoikhoabieu">
+        <h2>Thời khóa biểu</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Thứ</th>
+                    <th>Môn học</th>
+                    <th>Phòng học</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Thứ 3</td>
+                    <td>Java</td>
+                    <td>A1-1301</td>
+                </tr>
+                <tr>
+                    <td>Thứ 4</td>
+                    <td>Web</td>
+                    <td>A1-1304</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Tổng cộng 2 buổi học</th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Form liên hệ</h2>
+            <label for="name">Họ và tên:</label><br>
+            <input type="text" id="name" name="name" /><br />
+  
+            <label for="email">email:</label><br />
+            <input type="text" id="email" name="email" /><br />
+
+            <label for="pwd">Password:</label><br />
+            <input type="password" id="pwd" name="pwd" /> <br/>
+
+            <label>Giới tính:</label><br>
+            <input type="radio" id="nam" name="gioitinh" value="nam" checked>
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="nu">
+            <label for="nu">Nữ</label><br><br>
+    
+            <p>Sở Thích</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Lập Trình" />
+            <label for="vehicle1"> Lập Trình</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Nghe nhạc" />
+            <label for="vehicle2"> Nghe nhạc</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Thể thao" />
+            <label for="vehicle3"> Thể thao</label><br>
+
+            <p>Ngành Học</p>
+            <select id="cars" name="cars">
+                <option value="Kỹ Thuật Phần Mềm">Kỹ Thuật Phần Mềm</option>
+                <option value="Hệ thống thông tin">Hệ thống thông tin</option>
+                <option value="Khoa học máy tính">Khoa học máy tính</option>
+            </select><br><br>
+
+            <label for="message">Lời nhắn:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+            
+            <button type="submit">Gửi Thông Tin</button>   
+        </form>
+    </section>
+    <hr>
+
+    <aside id="lienhe">
+        <h2>Liên hệ</h2>
+        <p><a href="https://www.facebook.com/yeunlhalinh" target="_blank">Facebook</a></p>
+        <p><a href="https://github.com/ngluonghalinh-arch/HIT-WEB-PUBLIC2026" target="_blank">Github</a></p>
+        <p><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></p>
+    </aside>
+    <hr>
+
+    <footer>
+        <p>© 2026 Nguyễn Lương Hà Linh<3</p>
+    </footer>
+
+</body>
+</html>
