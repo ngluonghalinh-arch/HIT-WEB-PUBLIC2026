@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1e3963;
+    font-family: Arial, sans-serif;
+    padding: 50px 0;
+}
+.container {
+    text-align: center; 
+    width: 100%;
+}
+.card {
+    width: 350px;
+    background-color: #ffffff; 
+    border: 1px solid #d1d5db;
+    border-radius: 20px; 
+    padding: 30px 20px;
+    margin: 20px; 
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; 
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 4px solid #0056b3
+    margin-bottom: 1.2em;
+    display: inline-block;
+    object-fit: cover;
+}
+.name {
+    color: #003366; 
+    text-transform: uppercase;
+    font-weight: bold; 
+    font-size: 2rem; 
+    margin-bottom: 5px;
+}
+.profession {
+    color: #666666; 
+    font-style: italic; 
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+.info {
+    margin-bottom: 25px;
+}
+.info-item {
+    padding: 12px 0; 
+    border-bottom: 1px solid #eeeeee;
+    text-align: center; 
+    color: #444444;
+    font-size: 0.95rem;
+}
+.info-item:last-child {
+    border-bottom: none;
+}
+.skills {
+    margin-bottom: 30px;
+}
+.skill {
+    display: inline-block;
+    border: 1px solid #0056b3; 
+    color: #0056b3;
+    border-radius: 20px; 
+    padding: 6px 14px;
+    margin: 0 4px; 
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.actions {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    width: 45%; 
+    padding: 12px 0;
+    border-radius: 8px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 1rem;
+    margin: 0 2%; 
+    text-align: center;
+    border: 2px solid transparent; 
+}
+.btn-message {
+    background-color: #ffffff;
+    border-color: #0056b3;
+    color: #0056b3;
+}
